@@ -1,25 +1,125 @@
-*{
-  padding: 0px;
-  margin: 0px;
+
+/* General */
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: medium;
 }
 
+/* /General */
 
 
 
 
 
+/* Header */
 
 
+#celeste{
+  color:#1e8ff8;;
+}
+
+#data, #scritto{
+  color: grey;
+  margin-bottom: 10px;
+}
 
 .blocco-sfondo{
   width: auto;
-  height: 200px;
-  background-color: deepskyblue;
+  height: 185px;
+  background-color: #1e8ff8;
   background-image: url('../img/pattern.png');
   background-repeat: repeat;
 }
 
-
 .logo{
-  width: 100px;
+  width: 280px;
+  padding-top: 100px;
 }
+
+.logo-tim{
+  border: 1px solid black;
+}
+
+.scritta-piccola{
+  font-size: 10px;
+}
+
+/* /Header */
+
+/* Main */
+
+#paragrafo-grande{
+  margin-top: 15px;
+}
+
+table, th, td{
+  border:1px;
+  border-collapse: collapse;
+}
+
+.riga-prima{
+  background-color: #1e8ff8;
+  height: 25px;
+  
+}
+.riga-seconda, .riga-quarta{
+  background-color: #8ec4f7;
+  height: 60px;
+}
+
+.riga-terza{
+  background-color:white;
+  height:60px;
+}
+
+.prima-colonna, .seconda-colonna{
+  width: 400px;
+  text-align: left;
+}
+
+.terza-colonna{
+  width: 800px;
+  text-align: left;
+}
+
+/* /Main */
+
+/* Fotter */
+
+footer{
+  margin-top: 30px;
+}
+
+#scritta-footer{
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(114, 112, 112);
+}
+
+#prima-foto{
+  width: 300px;
+  height: 200px;
+  background-image: url(../img/monitor.jpg);
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+#seconda-foto{
+  width: 300px;
+  height: 300px;
+  background-image: url(../img/graph.jpg);
+  background-repeat: no-repeat;
+  background-size:contain;
+  margin-top: 20px;
+}
+
+.scritta-bianca{
+  padding-left: 10px;
+  padding-top: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* /Footer */
