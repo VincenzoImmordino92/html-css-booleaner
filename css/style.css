@@ -1,0 +1,25 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+.blocco-sfondo{
+  width: auto;
+  height: 200px;
+  background-color: deepskyblue;
+  background-image: url('../img/pattern.png');
+  background-repeat: repeat;
+}
+
+
+.logo{
+  width: 100px;
+}
